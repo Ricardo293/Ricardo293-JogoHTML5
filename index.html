@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Resgate</title>
+</head>
+<body>
+    <div id="container">
+        <div id="gameBackground">
+            <div id="start" onclick="start()">
+                <h1>Resgate</h1>
+                <p>Utiliize a tecla W para movimentar o helicóptero para cima, a tecla S para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+                <p>START!</p>
+            </div>
+        </div>
+    </div>
+
+    <audio src="sound/sound.mp3" preload="auto" id="shotSound"></audio>
+    <audio src="sound/explosion.mp3" preload="auto" id="explosionSound"></audio>
+    <audio src="sound/music.mp3" preload="auto" id="music"></audio>
+    <audio src="sound/gameover.mp3" preload="auto" id="gameOverSound"></audio>
+    <audio src="sound/lost.mp3" preload="auto" id="lostSound"></audio>	
+    <audio src="sound/rescue.mp3" preload="auto" id="rescueSound"></audio>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script> 
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+</body>
+</html>
